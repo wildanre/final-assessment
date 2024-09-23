@@ -1,6 +1,11 @@
 function factorial(n) {
-
-}
-
-// Jangan hapus kode di bawah ini!
-export default factorial;
+    if (n === 0 || n === 1) {
+      return 1;
+    } else {
+      return n * factorial(n - 1);
+    }
+  
+  }
+  
+  // Jangan hapus kode di bawah ini!
+  export default factorial;
